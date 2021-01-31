@@ -6,4 +6,70 @@
 
 html{
     font-size: 62.5%;
+    font-family: 'Roboto';
+    background-color: #dedede;
+}
+
+/*---Header---*/
+
+header{
+    width: 100%;
+    min-width: 320px;
+    height: 6rem;
+    display: flex;
+    text-align: center;
+    /* box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px; */
+    background-color: #eeeeee;
+}
+
+.header-title-container{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+.header-title-container p{
+    font-family: 'Yusei Magic';
+    color: cadetblue;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/*---Main---*/
+.main--abstract-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    max-width: 600px;
+    height: auto;
+    padding: 2rem 1rem;
+    align-items: center;
+    background-color: #eeeeee;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.main--abstract-title{
+    display: block;
+    align-self: flex-start;
+    font-family: 'yusei magic';
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+
+.main--abstract-content{
+    width: 85%;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 500;
+    align-self: flex-end;
+}
+
+.main--abstract-content p{
+    margin-bottom: 1.5rem;
 }
