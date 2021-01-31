@@ -43,7 +43,7 @@ header{
     flex-direction: column;
     width: 100%;
     min-width: 320px;
-    max-width: 600px;
+    /* max-width: 600px; */
     height: auto;
     padding: 2rem 1rem;
     align-items: center;
@@ -64,6 +64,7 @@ header{
 
 .main--abstract-content{
     width: 85%;
+    max-width: 863px;
     text-align: left;
     font-size: 2rem;
     font-weight: 500;
