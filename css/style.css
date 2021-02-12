@@ -1,162 +1,272 @@
-:root{
-    --bitcoin-orange: #F7931A;
-}
-
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 html{
     font-size: 62.5%;
-    font-family: 'Roboto';
-    background-color: #dedede;
+    font-family: Raleway;
+    background-color: #cfdfef;
 }
-
-/*---Header---*/
 
 header{
     width: 100%;
     min-width: 320px;
-    height: 6rem;
-    display: flex;
-    text-align: center;
-    /* box-shadow: 
-    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
-    border-radius: 50px; */
-    background-color: #eee;
+    background-color: #28281e;
 }
 
-.header-title-container{
-    margin-top: 1.5rem;
-    margin-left: 2rem;
-}
-
-.header-title-container p{
-    font-family: 'Yusei Magic';
-    color: var(--bitcoin-orange);
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-/*---Main---*/
-.main--abstract-container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-width: 320px;
-    /* max-width: 600px; */
-    height: auto;
-    padding: 2rem 1rem;
-    align-items: center;
-    background-color: #eeeeee;
-    align-self: center;
-    margin: 0 auto;
-}
-
-.main--abstract-title{
-    display: block;
-    align-self: flex-start;
-    font-family: 'yusei magic';
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-    margin-left: 2rem;
-}
-
-.main--abstract-content{
-    width: 85%;
-    max-width: 863px;
-    text-align: left;
-    font-size: 2rem;
-    font-weight: 500;
-    align-self: flex-end;
-}
-
-.main--abstract-content p{
-    margin-bottom: 1.5rem;
-}
-
-.main--section-work{
-    margin-top: -2rem;
-    border-radius: 3rem 3rem 0 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #cdcdcd;
-    min-width: 320px;
-    padding: 2rem 0;
-}
-
-.main--section-work a{
+a{
+    padding: 5px 0;
     text-decoration: none;
+    color: #a32101;
+    font-weight: 700;
 }
 
-.main--section-card{
-    margin: 0 auto;
-    width: 100%;
-    max-width: 863px;
-    height: auto;
-}
-
-.main--card-1{
-    position: relative;
+.header-navigation-bar{
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+    height: 44px;
     align-items: center;
-}
-
-.main--section-card h2 {
-    font-family: 'yusei magic';
-    color: black;
-}
-
-.main--card-1 img {
-    border-radius: 2rem;
-    width: 80%;
-    height: auto;
-    margin: 1.5rem;
-}
-
-.main--card-2{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main--card-2 img {
-    border-radius: 2rem;
-    width: 80%;
-    height: auto;
-    margin: 1.5rem;
-}
-
-.main--card-3{
-    margin: 1rem
-}
-
-footer{
-    width: 100%;
-    height: 15rem;
-    border-radius: 1.5rem 1.5rem 0 0;
-    margin-top: -2rem;
-    padding: 1.5rem;
-    background-color: #ababab;
-}
-
-.footer--content-container{
-    width: 100%;
-    height: 100%;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 0 auto;
 }
 
-.footer--content-container div{
-    margin: 2rem;
-    width: 4rem;
-    height: 4rem;
-    background-color: blue;
+.header-navigation-bar ul{
+    min-width: 300px;
+}
+.header-navigation-bar li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 8px;
+    margin: 0 2px;
+}
+
+.header-navigation-bar a{
+    text-decoration: inherit;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #bfbfbf;
+}
+
+.main-section-description{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #1b2127;
+    /* background-image: url(../Assets/Images/Hero.jpg); */
+    /* background-size: 150px auto; */
+    /* background-position: right; */
+    /* background-repeat: no-repeat; */
+    /* background-color: #beb9b3; */
+}
+
+.section-description-container{
+    display: flex;
+    /* width: 50%; */
+    height: auto;
+    justify-content: space-between;
+}
+
+.section-description-container img{
+    align-self: center;
+    height: 360px;
+    width: 50%;
+    max-width: 180px;
+    border-radius: 80% 0 0 0;
+}
+
+.section-description-container h1{
+    max-width: 518px;
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    color: #bfbfbf;
+    align-self: center;
+    margin-left: 10px;
+    padding: 3px 0 0 0;
+}
+
+.section-description-container b{
+    color: #808066;
+}
+
+.main-section-portfolio{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #efdfcf;
+    padding: 10px;
+    padding-top: 15px;
+    color: #1b2127;
+}
+
+.section-portfolio--title{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 15px;
+}
+
+.section-portfolio--item{
+    width: 95%;
+    max-width: 950px;
+    height: auto;
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:    "title title image"
+                            "subtitle subtitle image"
+                            "date date image"
+                            "link link image"
+                            "descrip descrip descrip";
+    /* position: relative; */
+    padding: 0 0 0 10px;
+    margin: 10px auto;
+    border: 1px solid #808066;
+    border-radius: 15px;
+}
+
+.section-portfolio--item h3, 
+.section-portfolio--item h6,
+.section-portfolio--item p{
+    margin: 5px 0 5px 0;
+}
+
+
+.section-portfolio--item h3{
+    font-size: 1.6rem;
+    grid-area: title;
+}
+
+.section-portfolio--item h6{
+    font-size: 1.4rem;
+    grid-area: subtitle;
+}
+
+.section-portfolio--item p{
+    font-size: 1.4rem;
+}
+
+.section-portfolio--item .item--date{
+    grid-area: date;
+}
+
+.section-portfolio--item .item--link{
+    grid-area: link;
+}
+
+.section-portfolio--item .item--description{
+    grid-area: descrip;
+}
+
+.section-portfolio--item div{
+    grid-area: image;
+    align-self: center;
+    justify-self: flex-end;
+    /* display: flex; */
+    /* justify-self: center; */
+    /* position: absolute; */
+    /* top: 100; */
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.section-portfolio--item div img{
+    width: 100%;
+}
+
+.main-section-experience{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 15px;
+    color: #1b2127;
+}
+
+.section-experience--title{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 15px;
+}
+
+.section-experience--item{
+    width: 95%;
+    height: auto;
+    margin: 10px auto;
+    margin-top: 20px;
+    /*margin-left: 10px;
+    margin-right: 10px; */
+    padding: 10px;
+    border: 1px solid coral;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+
+.section-experience--item .item--content{
+    width: 90%;
+    margin: 0 auto;
+    text-align:left;
+    align-content: center;
+}
+
+.section-experience--item .item--figure{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-experience--item figure img{
+    width: 100%;
+    min-width: 200;
+    margin: 0 auto;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 65% 0;
+
+}
+footer{
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.footer-container{
+    height: 40px;
+    background-color: #1b2127;
+    color: #bfbfbf;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-container--left span{
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    background-image: url(../Assets/Images/platzi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.footer-container--right a{
+    padding: 5px 0;
+    text-decoration: none;
+    color: #afafff;
+    object-fit: scale-down;
 }
