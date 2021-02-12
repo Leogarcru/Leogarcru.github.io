@@ -8,6 +8,7 @@ html{
     font-size: 62.5%;
     font-family: Raleway;
     background-color: #cfdfef;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -135,7 +136,7 @@ a{
 }
 
 .section-portfolio--item h3, 
-.section-portfolio--item h6,
+.section-portfolio--item h4,
 .section-portfolio--item p{
     margin: 5px 0 5px 0;
 }
@@ -146,7 +147,7 @@ a{
     grid-area: title;
 }
 
-.section-portfolio--item h6{
+.section-portfolio--item h4{
     font-size: 1.4rem;
     grid-area: subtitle;
 }
@@ -258,7 +259,7 @@ footer{
     display: inline-block;
     width: 70px;
     height: 25px;
-    background-image: url(../Assets/Images/platzi.png);
+    background-image: url(https://i.imgur.com/hIegx5L.png);
     background-size: contain;
     background-repeat: no-repeat;
     vertical-align: middle;
